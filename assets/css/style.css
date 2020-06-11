@@ -212,7 +212,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #092c3f;
   margin-top: 0px;
   font-style: normal;
@@ -3325,6 +3325,7 @@ hero-btn {
   color: #0d2d3e;
   font-weight: 400;
   padding: 39px 19px;
+  font-family: "Montserrat", sans-serif;
   display: block;
   font-size: 16px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -3576,10 +3577,22 @@ hero-btn {
 /* line 37, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area {
   margin-top: -1px;
-  background-image: url(../img/hero/h1_hero.jpg);
+  background-image: url(../img/hero/hero_oxyheal.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 50%;
+  height: 50vw;
+  width: 100vw;
+  /* background-color: black; */
+  opacity: 0.5;
+  z-index: 1;
 }
 
 /* line 43, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
@@ -3629,11 +3642,11 @@ hero-btn {
 
 /* line 73, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption h1 {
-  font-size: 85px;
-  font-weight: 800;
+  font-size: 70px;
+  font-weight: 700;
   margin-bottom: 14px;
-  color: #000000;
-  font-family: "Sarabun", sans-serif;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.2;
   margin-bottom: 33px;
 }
@@ -3680,7 +3693,7 @@ hero-btn {
 /* line 101, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption p {
   font-size: 16px;
-  color: #000000;
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
   margin-bottom: 39px;
   margin-bottom: 7px;
@@ -3823,7 +3836,7 @@ hero-btn {
   height: 60px;
   width: 60px;
   cursor: pointer;
-  border: 1px solid #a6b4bb;
+  border: 1px solid #ffffff;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;
@@ -3857,7 +3870,7 @@ hero-btn {
 .slider-active button.slick-arrow i {
   font-size: 20px;
   line-height: 60px;
-  color: #a6b4bb;
+  color: #ffffff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -3880,12 +3893,12 @@ hero-btn {
 
 /* line 258, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-active button.slick-next {
-  border: 1px solid #1b4962;
+  border: 1px solid #ffffff;
 }
 
 /* line 260, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-active button.slick-next i {
-  color: #1b4962;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3975,7 +3988,7 @@ hero-btn {
   -ms-transition: all 0.2s ease-out 0s;
   -o-transition: all 0.2s ease-out 0s;
   transition: all 0.2s ease-out 0s;
-  font-family: "Sarabun", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3995,8 +4008,9 @@ hero-btn {
 /* line 53, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
 .categories-area .single-cat .cat-cap p {
   margin-bottom: 36px;
-  color: #57667e;
+  color: #b7b7b7;
   font-size: 16px;
+  font-weight: 600;
   -webkit-transition: all 0.2s ease-out 0s;
   -moz-transition: all 0.2s ease-out 0s;
   -ms-transition: all 0.2s ease-out 0s;
@@ -4013,7 +4027,7 @@ hero-btn {
 
 /* line 63, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
 .categories-area .single-cat .cat-cap a {
-  color: #1c165c;
+  color: #595959;
   font-size: 16px;
   font-weight: 600;
   -webkit-transition: all 0.2s ease-out 0s;
@@ -4385,7 +4399,7 @@ hero-btn {
   font-family: "Roboto", sans-serif;
   display: block;
   position: relative;
-  margin-left: 50px;
+  margin-left: 20px;
   margin-bottom: 10px;
 }
 
@@ -4405,6 +4419,7 @@ hero-btn {
 .team-area .single-team .team-caption h3 a {
   color: #161e46;
   font-weight: 700;
+
   font-size: 25px;
 }
 
