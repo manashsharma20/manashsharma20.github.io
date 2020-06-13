@@ -25,6 +25,9 @@
 
 -------------------------------------------------
 */
+.achievement-p {
+  font-family: "Montserrat", sans-serif;
+}
 .aspect-ratio {
   position: relative;
   width: 100%;
@@ -235,7 +238,7 @@ h6 {
 
 /* line 23, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #10285d;
   font-size: 16px;
   line-height: 30px;
